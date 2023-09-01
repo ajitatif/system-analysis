@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.ajitatif'
+version '0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': 'org.ajitatif.gitlog.converter.GitLogConverter')
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
