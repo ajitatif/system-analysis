@@ -17,12 +17,16 @@ extract 2022-01-01 /tmp/analysis.csv
 
 this will run the `git log` command and then use the `gitlog-converter` for all 
 the `services` picked, along with their directory name. The output will contain 
-the header line in the CSV.  
+the header line in the CSV. Please note that this will require a configured Git 
+client to be available on your terminal's lookup path (`$PATH` in linux based systems)
 
 The tab completion works somewhat.
 
 ## TODO
 
+* [ ] Create a better documentation
 * [ ] Make a tab completion that actually works as intended
 * [ ] Add some unit tests damn it!
 * [ ] Turn on/off the blaming mode (adding the author of the commit message to the CSV)
+* [ ] Use a git library rather than relying on the `git` command
+* [ ] Add ability to clone repositories on the fly
