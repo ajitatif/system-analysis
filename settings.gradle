@@ -1,3 +1,4 @@
 rootProject.name = 'system-analysis'
 
 include 'gitlog-converter'
+include 'gitlog-cli-wizard'

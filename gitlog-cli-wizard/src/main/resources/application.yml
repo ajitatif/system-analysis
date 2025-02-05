@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: gitlog-cli-wizard
+    shell:
+
+        interactive:
+            enabled: true

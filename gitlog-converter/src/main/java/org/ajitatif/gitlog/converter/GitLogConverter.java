@@ -41,7 +41,7 @@ public class GitLogConverter {
         }
     }
 
-    private static String convertLogLine(String logLine) {
+    public static String convertLogLine(String logLine) {
         final String[] fields = logLine.split("[|]");
         StringBuilder line = new StringBuilder();
         for (int i = 0; i < fields.length; i++) {
