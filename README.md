@@ -1,7 +1,7 @@
 # system-analysis
 Here be some software system analyses tools I made up myself. Thanks me     
 
-Right now, [gitlog-converter](gitlog-converter/README.md) is the sole thing here.
+Check out [gitlog-cli-wizard](gitlog-cli-wizard/README.md) and [gitlog-converter](gitlog-converter/README.md).
 
 ## Contributing
 
